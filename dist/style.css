@@ -1,0 +1,59 @@
+* {
+  background-color: #dfdfdf;
+}
+
+.ballons .ballon {
+  width: 100px;
+  position: absolute;
+}
+.ballons .ballon:nth-child(1) {
+  transform: translate(-50%, -50%) rotate(-40deg);
+  top: 400px;
+  left: 230px;
+  z-index: 1;
+}
+.ballons .ballon:nth-child(2) {
+  transform: translate(-50%, -50%) rotate(-25deg);
+  top: 300px;
+  left: 260px;
+}
+.ballons .ballon:nth-child(3) {
+  transform: translate(-50%, -50%) rotate(0deg);
+  top: 270px;
+  left: 340px;
+}
+.ballons .ballon:nth-child(4) {
+  transform: translate(-50%, -50%) rotate(30deg);
+  top: 300px;
+  left: 420px;
+}
+.ballons .ballon:nth-child(5) {
+  transform: translate(-50%, -50%) rotate(40deg);
+  top: 400px;
+  left: 470px;
+  z-index: 1;
+}
+.ballons .ballon:nth-child(6) {
+  transform: translate(-50%, -50%) rotate(60deg);
+  top: 300px;
+  left: 470px;
+  z-index: -1;
+}
+.ballons .ballon:nth-child(7) {
+  transform: translate(-50%, -50%) rotate(15deg);
+  top: 240px;
+  left: 400px;
+  z-index: -1;
+}
+.ballons .ballon:nth-child(8) {
+  transform: translate(-50%, -50%) rotate(-15deg);
+  top: 270px;
+  left: 270px;
+  z-index: -1;
+}
+.ballons .ballon:nth-child(9) {
+  transform: translate(-50%, -50%) rotate(-6deg);
+  top: 300px;
+  left: 200px;
+  z-index: -1;
+}
